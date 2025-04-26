@@ -13,7 +13,7 @@ class B extends A {
     }
 }
 
-class DMD {
+class Dynamic {
 
     public static void main(String[] args) {
         A obj = new B();
