@@ -1,9 +1,9 @@
 
-public class uknow {
+public class thisKeyword {
 
     String name;
 
-    uknow(String name) {
+    thisKeyword(String name) {
         this.name = name; // 'this' refers to the instance variable
     }
 
@@ -12,7 +12,7 @@ public class uknow {
     }
 
     public static void main(String[] args) {
-        uknow e1 = new uknow("John");
+        thisKeyword e1 = new thisKeyword("John");
         e1.display();
     }
 }
