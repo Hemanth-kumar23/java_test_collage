@@ -1,32 +1,31 @@
 
-class A {
+class Animal {
 
-    void showA() {
-        System.out.println("Class A");
+    void eat() {
+        System.out.println("Animal eats");
     }
 }
 
-class B extends A {
+class Dog extends Animal {
 
-    void showB() {
-        System.out.println("Class B");
+    void bark() {
+        System.out.println("Dog barks");
     }
 }
 
-class C extends B {
+class Puppy extends Dog {
 
-    void showC() {
-        System.out.println("Class C");
+    void weep() {
+        System.out.println("Puppy weeps");
     }
 }
 
 class Multilevel {
 
     public static void main(String[] args) {
-        C obj = new C();
-
-        obj.showA();
-        obj.showB();
-        obj.showC();
+        Puppy p = new Puppy();
+        p.eat();
+        p.bark();
+        p.weep();
     }
 }

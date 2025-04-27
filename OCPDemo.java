@@ -22,7 +22,8 @@ class OCPDemo {
 
     public static void main(String[] args) {
         Shape s = new Circle();
-
         s.draw();
+        Shape a = new Square();
+        a.draw();
     }
 }
